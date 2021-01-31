@@ -1,0 +1,125 @@
+.hidden
+{
+	display: none;
+}
+
+body
+{
+  background-color: #55342B;
+}
+
+#container
+{
+	width: 980px;
+	margin: 0 auto;
+  background-color: #452a23;
+	font-family: 'Ubuntu', sans-serif;
+  	font-size: 16px;
+}
+
+#mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#logo img
+{
+	height: 150px;
+	width: 100px;
+	margin-left: 80px;
+}
+
+.paragrahp p
+{
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 29px;
+  text-align: center;
+}
+
+#mainNav
+{
+	float: left;
+	display: inline-block;
+	margin: auto;
+	width: 600px;
+	padding-top: 50px;
+	text-align: center;
+  font-size:22px;
+
+}
+
+#mainNav ul
+{
+	list-style-type: none;
+	float: right;
+}
+
+#mainNav ul li
+{
+	color: #707070;
+	display: inline;
+	margin-left: 20px;
+}
+
+#mainNav ul li a
+{
+	color: #707070;
+	text-decoration: none;
+}
+
+#mainNav ul li a:after
+{
+	content: " / ";
+	padding-left: 20px;
+}
+
+#mainNav ul li a:hover::after
+{
+	color: #707070;
+	margin: 0 auto;
+}
+
+#mainNav ul li:last-child a:after
+{
+	display: none;
+}
+
+#mainNav ul li a:hover
+{
+	color: #ffff;
+	margin: 0 auto;
+}
+
+.icon
+{
+	display: inline-block;
+	margin-top: 50px;
+	width: 160px;
+}
+
+.icon object
+{
+	width: 100px;
+	height: auto;
+  margin-left: 100px;
+  margin-bottom:100px;
+}
+
+.icon object:hover
+{
+  outline:3px solid green;
+  cursor: pointer;
+}
+
+#footer
+{
+	margin-top: 20px;
+  margin-left: 20px;
+	color: #707070;
+}
