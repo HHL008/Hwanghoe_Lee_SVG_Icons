@@ -1,0 +1,16 @@
+<svg id="shogi_King_Icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106.72 114.47"><defs><style>.cls-1{fill:#c7bea6;}.cls-2{fill:#231f20;stroke:#231f20;stroke-miterlimit:10;}</style></defs><polygon class="cls-1" points="0 114.47 13.38 16.91 54.59 0 92.28 15.15 106.72 114.47 0 114.47"/><path class="cls-2" d="M93.91,97.69v-10H77.57s-2-4.35,3.06-6.9H112.8s6.64.26,0,5.87l-8.94.51s-4.21-2.42-4.08,6.13l-.51,4.34h9.44s4.73,4.85-1.78,5.36-7.92,0-7.92,0l-.51,12.51s20.55.64,23,2-4.09,6.38-4.09,6.38-23.23-7.15-46.72,0c0,0-8.42-3.06,2.81-6.38,0,0,13.28-1.53,19.15-1.79l1-12.26s-12.26,1.66-12.26.52S78.08,99,84.2,99A31.5,31.5,0,0,0,93.91,97.69Z" transform="translate(-41.47 -45.18)"/>
+<defs>
+
+<script>
+  let icon = document.querySelector("#shogi_King_Icon");
+
+  function logMyId()
+  {
+  console.log(this.id);
+  }
+
+  icon.addEventListener("click", () => { console.log(this); });
+</script>
+
+</defs>
+</svg>
